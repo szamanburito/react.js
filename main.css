@@ -1,0 +1,37 @@
+/* h1 */
+
+h1 {
+    font-size: 5vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation: changecolor 4s infinite;
+}
+
+h1:hover {
+    cursor: cell;
+    filter: blur(0.8px);
+}
+
+@keyframes changecolor {
+    50% {
+        color: rgb(233, 230, 225);
+    }
+}
+
+
+/* h2 */
+
+h2 {
+    font-size: 3vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation: changecolor 4s infinite;
+    animation-delay: 2s;
+}
+
+
+/* Main */
+
+.main--container {
+    background-color: rgb(216, 216, 216);
+    height: 75vh;
+    width: 100%;
+}
