@@ -35,3 +35,12 @@ h2 {
     height: 75vh;
     width: 100%;
 }
+
+
+/* React */
+
+#app--0 {
+    background-color: aquamarine;
+    height: auto;
+    width: auto;
+}
